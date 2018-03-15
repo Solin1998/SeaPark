@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/nave.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="bord.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+   <div id="birm"></div>
+    <div class="container">
+        <div class="nav-top">
+            <a><span class="glyphicon glyphicon-search"></span></a>
+            <a href="case.html" id="all">
+                <span>全部</span>
+            </a>
+            <a href="case.html?fid=1"id="sea" >
+                <span >海底世界</span>
+            </a>
+            <a href="case.html?fid=2" id="water">
+                <span>水上世界</span>
+            </a>
+        </div>
+        <div class="row">
+            <div>
+                <div id="pic" class="row">
+                    <!--<div class="col-sm-6 col-md-4 col-xs-6 img_list">
+                        <dd>
+                            <img src="${data[i].img}" class="img-responsive" />
+                            <button class="glyphicon glyphicon-link l_icon1" title="${data[i].cname}"></button>
+                            <button class="glyphicon glyphicon-search l_icon2"></button>
+                        </dd>
+                        <p class="list1">${data[i].cname}</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xs-6">
+                        <dd>
+                            <img src="imgs/1497582353.jpg" class="img-responsive" />
+                            <button class="glyphicon glyphicon-link l_icon1" title="海藻柱"></button>
+                            <button class="glyphicon glyphicon-search l_icon2"></button>
+                        </dd>
+                        <p class="list2">海藻柱</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xs-6">
+                        <dd>
+                            <img src="imgs/1497583503.jpg" class="img-responsive" />
+                            <button class="glyphicon glyphicon-link l_icon1" title="海洋剧场"></button>
+                            <button class="glyphicon glyphicon-search l_icon2"></button>
+                        </dd>
+                        <p class="list1">海洋剧场</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xs-6">
+                        <dd>
+                            <img src="imgs/1497582902.jpg" class="img-responsive" />
+                            <button class="glyphicon glyphicon-link l_icon1" title="海狮乐园"></button>
+                            <button class="glyphicon glyphicon-search l_icon2"></button>
+                        </dd>
+                        <p class="list2">海狮乐园</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xs-6">
+                        <dd>
+                            <img src="imgs/1497582221.jpg" class="img-responsive" />
+                            <button class="glyphicon glyphicon-link l_icon1" title="海底隧道"></button>
+                            <button class="glyphicon glyphicon-search l_icon2"></button>
+                        </dd>
+                        <p class="list1">海底隧道</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xs-6">
+                        <dd>
+                            <img src="imgs/1497608488.jpg" class="img-responsive" />
+                            <button class="glyphicon glyphicon-link l_icon1" title="浮雕广场"></button>
+                            <button class="glyphicon glyphicon-search l_icon2"></button>
+                        </dd>
+                        <p class="list2">浮雕广场</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xs-6">
+                        <dd>
+                            <img src="imgs/1497579693.jpg" class="img-responsive" />
+                            <button class="glyphicon glyphicon-link l_icon1" title="深海景观"></button>
+                            <button class="glyphicon glyphicon-search l_icon2"></button>
+                        </dd>
+                        <p class="list1">深海景观</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xs-6">
+                        <dd>
+                            <img src="imgs/1497578860.jpg" class="img-responsive" />
+                            <button class="glyphicon glyphicon-link l_icon1" title="海龟池"></button>
+                            <button class="glyphicon glyphicon-search l_icon2"></button>
+                        </dd>
+                        <p class="list2">海龟池</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xs-6">
+                        <dd>
+                            <img src="imgs/1497579417.jpg" class="img-responsive" />
+                            <button class="glyphicon glyphicon-link l_icon1" title="企鹅馆"></button>
+                            <button class="glyphicon glyphicon-search l_icon2"></button>
+                        </dd>
+                        <p class="list1">企鹅馆</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xs-6">
+                        <dd>
+                            <img src="imgs/1497578146.jpg" class="img-responsive" />
+                            <button class="glyphicon glyphicon-link l_icon1" title="鲨鱼馆"></button>
+                            <button class="glyphicon glyphicon-search l_icon2"></button>
+                        </dd>
+                        <p class="list2">鲨鱼馆</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xs-6">
+                        <dd>
+                            <img src="imgs/1497578158.jpg" class="img-responsive" />
+                            <button class="glyphicon glyphicon-link l_icon1" title="海洋科普厅"></button>
+                            <button class="glyphicon glyphicon-search l_icon2"></button>
+                        </dd>
+                        <p class="list1">海洋科普厅</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xs-6">
+                        <dd>
+                            <img src="imgs/1497609951.jpg" class="img-responsive" />
+                            <button class="glyphicon glyphicon-link l_icon1" title="海豚戏水"></button>
+                            <button class="glyphicon glyphicon-search l_icon2"></button>
+                        </dd>
+                        <p class="list2">海豚戏水</p>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootlint.js"></script>
+		<script src="../js/ajax.js"></script>
+    <script src="js/case.js"></script>
+		<script src="../js/bord.js"></script>
+   
+</body>
+
+</html>

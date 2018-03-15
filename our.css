@@ -1,0 +1,140 @@
+
+p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+	text-decoration:none;
+	border:none;
+	
+}
+
+#our{
+  background:url("img/1497608403.jpg");
+  max-width:100%;
+  min-height:100%;
+  overflow:hidden;
+  position: relative;
+  background-attachment: fixed;
+  background-position: right top;
+}
+
+
+	/**顶部小导航**/
+#our1{
+	width:82.12%;
+	height:4.5%;
+	line-height:76px;
+	margin-left:17.88%;
+}
+#our1 a b:hover{
+	color:#fff;
+}
+#our1>a:nth-child(1){
+	display:inline-block;
+	width:36px;
+	height:38px;
+	margin:-3px 0 0 45px;
+	padding:0;
+	line-height:38px;
+	vertical-align:middle;
+	text-align:center;
+	background: linear-gradient(to right, #fff 50%,#00c0ff 50%);
+	background-size:200px;
+	transition:all .5s linear;
+}
+#our1>a:nth-child(1):hover{
+	background-position:100px 0;
+}
+#our1>a:nth-child(3){
+	display:inline-block;
+	text-align:center;
+	width:92px;
+	height:38px;
+	background:#00c0ff;
+	margin:0 ;
+	padding:0;
+	line-height:38px;
+}
+#our1>a:nth-child(3) b{
+	color:#fff;
+}
+#our1>a:nth-child(2){
+	display:inline-block;
+	text-align:center;
+	width:92px;
+	height:38px;
+    
+	margin:0;
+	padding:0;
+	line-height:38px;
+	background: linear-gradient(to right, #fff 50%,#00c0ff 50%);
+	background-size:200px;
+	transition:all .5s linear;
+}
+#our1>a:nth-child(2):hover{
+	background-position:100px 0;
+}
+#our1>a:nth-child(4){
+	display:inline-block;
+	text-align:center;
+	width:92px;
+	height:38px;
+	background:rgba(255,255,255,.97);
+	margin:0;
+	padding:0;
+	line-height:38px;
+	background: linear-gradient(to right, #fff 50%,#00c0ff 50%);
+	background-size:200px;
+	transition:all .5s linear;
+}
+#our1>a:nth-child(4):hover{
+	background-position:100px 0;
+}
+#our1>a>img{
+	
+	line-height:38px;
+	vertical-align:center;
+	
+}
+#our1>a>b{
+	color:#555;
+	font-weight:normal;
+}
+#our2{
+   width:1080px;
+   height:950px;
+   margin:0 auto;
+   margin-bottom:50px;
+   margin-top:30px;
+   padding-top:30px;
+   background:#fff;
+}
+#our3{
+  width:1060px;
+  margin:0 auto;
+  font-size:15px;
+}
+#our3 p{
+  margin:20px;
+}
+#our4{
+  width:1000px;
+  height:400px;
+  margin:0;
+  padding:0;
+  margin:0 auto;
+  margin-top:40px;
+}
+#our4 img{
+  width:1000px;
+  height:390px;
+}
+#our5{
+  width:1000px;
+  margin:0 auto;
+}
+#our5 p{
+  margin:35px;
+}

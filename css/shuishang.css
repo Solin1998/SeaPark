@@ -1,0 +1,66 @@
+#main{margin:0 auto;width:1176px}
+
+.col1 img{
+	width :500;
+	height:350px;
+	
+}
+.col1{float:left;}
+.col2{float:right}
+.description{
+    margin-bottom: 30px;
+}
+.price{
+	font-size:32px;
+	color: #fb3f41;
+	padding:20px;
+	
+}
+
+#pre{width:512px;
+    height:88px;
+   background-color: #fafafa;}
+.col2 p{
+	font-size:14px;
+	 color: #5e7387;
+}
+.people a{color: #76838f;
+    background-color: transparent;
+    text-decoration:none;
+	margin-right: 10px;
+	padding: 6px 15px;
+	font-size:14px;
+	display:inline-block;
+	cursor: pointer;
+	border: 1px solid transparent;
+	vertical-align: middle;
+	border-color: #e4eaec;
+}
+.people a:hover{border-color:red}
+.btn1,.btn2{padding: 0px 14px;
+     line-height: 36px;
+     border:none
+}
+.btn1:hover{background: #00c0ff; 
+    color: #fff 
+}
+.btn2:hover{background: #00c0ff; 
+    color: #fff 
+}
+input{height:30px;
+    width:60px;
+    border: 2px solid #e4eaec;
+}
+input:hover{border-color:#00c0ff;}
+.like span {display: inline-block;
+    padding: 10px 35px;
+    font-size: 18px;
+	background-color:#00c0ff;
+	color:#fff;
+	margin-right:20px
+}
+.shop:hover{background-color:#333;}
+.like .enter{background-color:#f2a654;}
+
+
+

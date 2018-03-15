@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <script>
+        function c1(name) {
+            if (name) {
+                this.name = name
+            }
+        }
+
+        function c2(name) {
+            this.name = name;
+        }
+
+        function c3(name) {
+            this.name = name || 'Jhon';
+        }
+        c1.prototype.name = 'Tom';
+        c2.prototype.name = 'Tom';
+        c3.prototype.name = 'Tom';
+        alert((new c1()).name + (new c2()).name + (new c3()).name);
+    </script>
+</body>
+
+</html>

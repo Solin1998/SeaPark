@@ -1,0 +1,37 @@
+
+#about{background: #f8f8f8;
+
+width:100%;margin:0 auto}
+
+#png1,#png2,#png3{margin:0 auto;width:1100px;
+height:1165px;
+}
+#png1 a,#png2 a;#png3 a{margin-bottom:30px}
+#png1 img,#png3 img{width:300px;
+                    height:190px;}
+#png2 img,#png3 img{width:300px;}
+#png1 a,#png2 a,#png3 a{display:block;
+     float:left;
+	 padding:10px 20px;
+	 text-decoration:none;
+}
+
+p{color:#333}
+
+#png1 span,#png2 span,#png3 span{
+	display:block;
+	line-height:25px;
+	position:relative;
+}
+
+ 
+
+#png1 h3,#png2 h3,#png3 h3{ color: #555;}
+#png1 span b,#png2 span b,#png3 span b{
+ position:absolute;
+ left:380px;
+ bottom:15px;
+ color: #ddd;
+}
+#png1 p:hover{color:#69c}
+#png1 h3:hover{color:#69c}

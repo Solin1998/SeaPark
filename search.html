@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> new document </title>
+  <meta charset="utf-8">
+   <style>
+  .trans-rotate{
+    -webkit-transition: transform .8s linear;
+    -moz-transition: transform .8s linear;
+    -o-transition: transform .8s linear;
+    transition: transform .8s linear;
+}/* 加上这个样式后，才会在0.25秒内旋转完毕。否则只会显示立刻旋转完的结果 */
+ 
+.btnbg:hover{transform:rotate(360deg);} 
+  
+  </style>
+   <link rel="stylesheet" href="css/jquery-ui.css">
+   <link rel="stylesheet" href="css/bord.css">
+   <link rel="stylesheet" href="css/search.css">
+   <link rel="stylesheet" href="css/next.css">
+ </head>
+ <body>
+
+	<div id="brim" class="brim">
+<img src="img/092152.png">
+  <div id="side">
+	  <div id="side1">
+		  <img src="img/1497515675.png">
+		</div>
+		<div id="side2">
+		  <ul>
+			  <li>
+				  <a href="first.html">
+					  <b>官网首页</b>
+						<p>HOME</p>
+					</a>
+				</li>
+			  <li>
+				  <a href="">
+					  <b>关于我们</b>
+						<p>ABOUT US</p>
+					</a>
+					<div class="midd">
+					  <dt><img src="img/1497608488.jpg"></dt>
+				    <a href="">海洋馆介绍</a>
+						<a href="">展区分布</a>
+						<a href="">开放时间</a>
+					</div>
+				</li>
+			  <li>
+				  <a href="">
+					  <b>体验项目</b>
+						<p>CASES</p>
+					</a>
+					<div class="midd1">
+					  <dt><img src="img/1497583503.jpg"></dt>
+				    <a href="">海底世界</a>
+						<a href="">水上世界</a>
+					</div>
+				</li>
+			  <li>
+				  <a href="">
+					  <b>门票订购</b>
+						<p>PRODUCT</p>
+					</a>
+					<div class="midd2">
+					  <dt><img src="img/1497583321.jpg"></dt>
+				    <a href="">海洋剧场</a>
+						<a href="">海底世界</a>
+						<a href="">水上乐园</a>
+					</div>
+				</li>
+			  <li>
+				  <a href="haiyangkepu1.html">
+					  <b>海洋科普</b>
+						<p>NEWS</p>
+					</a>
+					<div class="midd3">
+					  <dt><img src="img/1497582902.jpg"></dt>
+				    <a href="">海洋鱼类</a>
+						<a href="">海底世界</a>
+					</div>
+				</li>
+				<li>
+				  <a href="">
+					  <b>联系我们</b>
+						<p>CONTACT</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+	 <div id="my-tabs" style="margin-top:50px;">
+<!-- 	UL(页签头部) + DIV*n(每个页签的内容) -->
+         
+       <div class="nav-top" style="margin:0 auto;width:1000px;">
+		<ul style="width:1000px;margin:0 auto;">
+			<li><a href="#png1"><b>全部</b></a></li>
+			<li><a href="#png2"><b>海洋剧场</b></a></li>
+		     <li><a href="#png3"><b>海底世界</b></a></li>
+		</ul>
+		</div>
+		<div id="about">
+		<div id="png1">
+			<!--<a href="ban.html"><img class="btnbg trans-rotate" src="images/1.jpg" title="水上乐园" >
+				<span><h3>水上乐园</h3>
+				<p>精彩表演、生物展示</p>
+			   </a>
+				<a href="ban.html"><img class="btnbg trans-rotate" src="images/2.jpg" title="极地海洋馆" >
+				<span><h3>极地海洋馆</h3>
+				<p>惊险刺激、挑战自我</p>
+				</a>
+				<a href="ban.html"><img class="btnbg trans-rotate" src="images/3.jpg" title="白鲸表演" >
+				<span><h3>白鲸表演</h3>
+				<p>精彩绝伦</p>
+				<a href="ban.html"><img class="btnbg trans-rotate" src="images/4.jpg" title="海豚表演" >
+				<span><h3>海豚表演</h3>
+				<p>彩绝伦、视觉享受 </p>
+				<a href="ban.html"><img class="btnbg trans-rotate" src="images/5.jpg" title="海豹表演" >
+				<span><h3>海豹表演</h3>
+				<p>彩纷呈、海狮表演 </p>
+				<a href="ban.html"><img class="btnbg trans-rotate" src="images/6.jpg" title="人鲨共舞" >
+				<span><h3>人鲨共舞</h3>
+				<p>惊险刺激、挑战自我</p>
+				<a href="ban.html"><img class="btnbg trans-rotate" src="images/1.jpg" title="水上乐园" >
+				<span><h3>水上乐园</h3>
+				<p>精彩表演、生物展示</p>
+				<a href="ban.html"><img class="btnbg trans-rotate" src="images/8.jpg" title="潜水戏鱼" >
+				<span><h3>潜水戏鱼</h3>
+				<p>精彩刺激、水上游乐</p>-->
+		</div>
+		<div id="png2">
+			 <a href="ban.html"><img class="btnbg trans-rotate" src="images/2.jpg" title="极地海洋馆" >
+				<span><h3>极地海洋馆</h3>
+				<p>惊险刺激、挑战自我</p>
+				</a>
+				<a href="ban.html"><img class="btnbg trans-rotate" src="images/3.jpg" title="白鲸表演" >
+				<span><h3>白鲸表演</h3>
+				<p>精彩绝伦</p>
+				<a href="ban.html"><img class="btnbg trans-rotate" src="images/5.jpg" title="海豹表演" >
+                <span><h3>海豚表演</h3>
+				<p>彩绝伦、视觉享受 </p>
+		</div>
+		<div id="png3">
+			<a href="ban.html"><img class="btnbg trans-rotate" src="images/5.jpg" title="海豹表演" >
+				<span><h3>海豹表演</h3>
+				<p>彩纷呈、海狮表演 </p>
+				<a href="ban.html"><img class="btnbg trans-rotate" src="images/6.jpg" title="人鲨共舞" >
+				<span><h3>人鲨共舞</h3>
+				<p>惊险刺激、挑战自我</p>
+				<a href="ban.html"><img class="btnbg trans-rotate" src="images/1.jpg" title="水上乐园" >
+				<span><h3>水上乐园</h3>
+				<p>精彩表演、生物展示</p>
+				<a href="ban.html"><img class="btnbg trans-rotate" src="images/8.jpg" title="潜水戏鱼" >
+				<span><h3>潜水戏鱼</h3>
+				<p>艰险刺激，水上游乐</p>
+		</div>
+	</div>
+    <div>
+	<div id="foot">
+	  <div class="f">
+		  <p><a href="">友情链接：/ 米拓建站 / Metinfo / 海洋馆</a></p>
+			<p>海洋生态公园 版权所有 2008-2016 粤ICP备0123456789-1</p>
+			<p>Powered by MetInfo 5.3.19</p>
+		</div>
+	</div>
+
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/jquery-ui.js"></script>
+  <script src="js/ajax.js"></script>
+	<script src="js/search.js"></script>
+	
+	<script>
+		$("#my-tabs").tabs();
+	</script>
+    
+ </body>
+</html>

@@ -1,0 +1,100 @@
+#roll{
+  width:1170px;
+  height:100px;
+  margin:0 auto;
+  overflow:hidden;
+}
+#roll1 ul{
+  width:555px;
+  list-style:none;
+}
+#roll1 ul li{
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  font-size: 22px;
+  color: #333;
+}
+#roll2{
+  width:555px;
+  float:left;
+}
+#roll2 a{
+  display:inline-block;
+  margin-left:480px;
+  text-decoration:none;
+  color:#337ab7;
+  line-height:100px;
+}
+#roll3{
+  width:100%;
+  height:625px;
+  background:#efefef;
+}
+#roll4{
+  width:1170px;
+  height:600px;
+  margin:0 auto;
+  border:1px solid #efefef;
+}
+#roll5{
+  width:500px;
+  height:330px;
+  margin:0 auto;
+  margin-top:50px;
+  background:#fff;
+  border-radius:20px;
+  border:1px solid #efefef;
+}
+#roll5 input{
+  width:300px;
+  height:40px;
+  margin-top:20px;
+  margin-left:80px;
+  border-radius:5px;
+  line-height:40px;
+  padding-left:38px;
+  border:1px solid #ccc;
+}
+#roll5  .case1{
+  background:url(img/ico.png) 14px 12px no-repeat;
+}
+#roll5 .case2{
+  background:url(img/ico.png) 14px -24px no-repeat;
+}
+#roll5 .case3{
+  background:url(img/ico.png) 14px -24px no-repeat;
+}
+#roll5 button{
+  width:340px;
+  height:40px;
+  margin-left:80px;
+  margin-top:20px;
+  border:1px solid #337AB7;
+  font-size:20px;
+  color:#fff;
+  background:#337AB7;
+  border-radius:5px;
+}
+#roll5 p{
+  padding:0;
+  margin:0;
+  width:80px;
+  height:20px;
+  display:inline-block;
+  margin-top:20px;
+  margin-left:340px;
+}
+#roll5 p a{
+  text-decoration:none;
+  color:#337AB7;
+}
+#roll6{
+  width:100%;
+  height:100px;
+  text-align:center;
+}
+#roll6 p{
+  color:#777;
+  line-height:100px;
+}

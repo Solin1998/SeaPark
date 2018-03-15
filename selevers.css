@@ -1,0 +1,129 @@
+#ser{
+  width:100%;
+  height:100%;
+  margin:0 auto;
+}
+p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+	text-decoration:none;
+	border:none;
+	
+}
+
+
+
+	/**顶部小导航**/
+#ser1{
+	width:82.12%;
+	height:4.5%;
+	line-height:76px;
+	margin-left:17.88%;
+}
+#ser1 a b:hover{
+	color:#fff;
+}
+#ser1>a:nth-child(1){
+	display:inline-block;
+	width:36px;
+	height:38px;
+	margin:-3px 0 0 45px;
+	padding:0;
+	line-height:38px;
+	vertical-align:middle;
+	text-align:center;
+	background: linear-gradient(to right, #fff 50%,#00c0ff 50%);
+	background-size:200px;
+	transition:all .5s linear;
+}
+#ser1>a:nth-child(1):hover{
+	background-position:100px 0;
+}
+#ser1>a:nth-child(4){
+	display:inline-block;
+	text-align:center;
+	width:92px;
+	height:38px;
+	background:#00c0ff;
+	margin:0 ;
+	padding:0;
+	line-height:38px;
+}
+#ser1>a:nth-child(4) b{
+	color:#fff;
+}
+#ser1>a:nth-child(2){
+	display:inline-block;
+	text-align:center;
+	width:92px;
+	height:38px;
+    
+	margin:0;
+	padding:0;
+	line-height:38px;
+	background: linear-gradient(to right, #fff 50%,#00c0ff 50%);
+	background-size:200px;
+	transition:all .5s linear;
+}
+#ser1>a:nth-child(2):hover{
+	background-position:100px 0;
+}
+#ser1>a:nth-child(3){
+	display:inline-block;
+	text-align:center;
+	width:92px;
+	height:38px;
+	background:rgba(255,255,255,.97);
+	margin:0;
+	padding:0;
+	line-height:38px;
+	background: linear-gradient(to right, #fff 50%,#00c0ff 50%);
+	background-size:200px;
+	transition:all .5s linear;
+}
+#ser1>a:nth-child(3):hover{
+	background-position:100px 0;
+}
+#ser1>a>img{
+	
+	line-height:38px;
+	vertical-align:center;
+	
+}
+#ser1>a>b{
+	color:#555;
+	font-weight:normal;
+}
+#ser2{
+   width:1000px;
+   font-size:15px;
+   margin:0 auto;
+   margin-top:30px;
+}
+#ser3,#ser4{
+  margin:0 auto;
+  width:1000px;
+  margin-top:30px;
+}
+#ser3 b,#ser4 b{
+   font-size:20px;
+   color:#1F497D;
+}
+#ser3 table{
+   width:900px;
+   height:87px;
+   margin-top:20px;
+   border:1px solid #E4EAEC;
+}
+#ser3 th,tr,#ser4 th,tr{
+   border:1px solid #E4EAEC;
+}
+#ser4 table{
+   width:900px;
+   height:179px;
+   margin-top:20px;
+   border:1px solid #E4EAEC;
+}

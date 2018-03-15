@@ -1,0 +1,19 @@
+#foot{
+margin:0 auto
+  width:1176px;
+  height:100px;
+ 
+  background:#333;
+}
+#foot .f{
+  
+  margin-top:40px;
+  text-align:center;
+}
+#foot .f p a{
+  text-decoration:none;
+  color:#fff;
+}
+#foot .f p{
+  color:#fff;
+}
